@@ -1,0 +1,346 @@
+%%
+%% Copyright (c) 2018 Weitian LI <wt@liwt.net>
+%% CC BY 4.0 License
+%%
+%% Resume / Résumé
+%% A short document (1-2 pages) to sum up the job-related accomplishments
+%% and experience.
+%%
+%% Information Checklist:
+%% * Contact Information
+%% * Work History / Experience
+%% * Education
+%% * Skills
+%% * Summary & Objective (optional)
+%% * Hobbies & Interests (optional)
+%%
+%% References:
+%% * CV vs. Resume: What is the Difference? When to Use Which?
+%%   https://uptowork.com/blog/cv-vs-resume-difference
+%% * How to Make a Resume: A Step-by-Step Guide (+30 Examples)
+%%   https://uptowork.com/blog/how-to-make-a-resume
+%% * Entry-Level Resume: Sample and Complete Guide (+20 Examples)
+%%   https://uptowork.com/blog/entry-level-resume-example
+%%
+%% 2018-04-11
+%%
+
+% Chinese version
+\documentclass[zh]{resume}
+
+% File information shown at the footer of the last page
+\fileinfo{%
+  \faCopyright{} 2018 ZhongJun Zhang,
+  \creativecommons{by}{4.0},
+  \githublink{zhangzhongjun}{resume}
+}
+
+\name{中俊}{张}
+%\setposition{云计算开发工程师}
+%\setlocation{深圳}
+
+%\tagline{\getposition{} @ \getlocation}
+\taglineicon{\faBinoculars}
+%\keywords{\getposition, \getlocation, Python, Linux, BSD}
+\photo{7em}{photo}
+
+\socialinfo{
+  \mobile{188-3510-9707}
+  \email{18835109707@163.com}
+  \github{zhangzhongjun} \\
+  \university{西安电子科技大学}
+  \degree{网络空间安全 \textbullet 硕士} \\
+  %\address{上海}
+  %\home{湖南 \textbullet 邵阳}
+  %\birthday{1991-09-26}
+}
+
+\begin{document}
+\makeheader
+
+%======================================================================
+% Summary & Objectives
+%======================================================================
+%{\onehalfspacing\hspace{2em}%
+%物理学专业（射电天文方向）直博研究生，有扎实的物理、数学与统计学基础，
+%擅长数据建模与分析，热衷计算机和网络技术，
+%有 10 年的 Linux 和 BSD 使用经验，
+%熟悉常用的命令行工具，熟练掌握 Shell、Python 和 C 语言编程。
+%积极实践自由开源精神，
+%在 \link{https://github.com/liweitianux}{GitHub} 上分享多个项目，
+%是 \link{https://www.dragonflybsd.org}{DragonFly BSD} 操作系统的开发者，
+%并积极参与其他多个开源项目。
+%真诚应聘贵公司的\textbf{\getposition}职位，
+%期待加入贵公司，帮助实现公司目标，同时获得自身成长。
+%\par}  % NOTE: \par is needed
+
+%======================================================================
+% Competences / Skills & Languages
+\sectionTitle{技能和语言}{\faWrench}
+%======================================================================
+\begin{competences}
+  \comptence{\icon{\faCoffee} Java}{%
+    %\icon{\faLinux} Linux （10 年）;
+    %\icon{\faFreebsd} BSD （DragonFly BSD 和 FreeBSD, 7 年）
+    熟悉使用Maven构建项目；
+    在Maven中心仓库中贡献一个\link{https://mvnrepository.com/artifact/com.github.zhangzhongjun/BilinearMapAccumulator}{开源库}
+  }
+  \comptence{\icon{\faLock}密码学}{%
+    密码学基础知识；云存储，可搜索加密；以太坊；实现相关论文方案的能力
+  }
+  \comptence{\icon{\faCodeBranch} 版本控制}{
+    熟悉Git技术；在github上分享多个仓库；收获一些星星和follower
+  }
+  \comptence{\icon{{\FA \symbol{"F717}}} 网络爬虫}{%
+    熟悉各种反爬机制；
+    20余\link{https://github.com/zhangzhongjun?utf8=crawler&tab=repositories&q=crawler&type=&language=}{爬虫项目}；
+    经营一家爬虫网店，完成50余订单，受到客户好评；
+    熟悉Scrapy框架
+  }
+  \comptence{\icon{\faPython}脚本语言}{%
+    Python, VBScript, Linux脚本
+  }
+  \comptence{\icon{\faBars}其他技能}{%
+    CET-6，无障碍阅读DOC；证券从业资格证书持有人；PPT；PS
+  }
+\end{competences}
+%
+%%======================================================================
+%% Education
+%\sectionTitle{教育背景}{\faGraduationCap}
+%%======================================================================
+%\begin{educations}
+%  \education
+%    {2017.09}
+%    [2020.06]
+%    {西安电子科技大学}
+%    {网络与信息安全学院}
+%    {网络空间安全}%
+%    %{硕士（在读，导师 陈晓峰 教授，研究方向为密码学、云计算安全）}
+%    {硕士（在读，导师 陈晓峰 教授，密码学、云计算安全）}%
+%
+%  %\separator{0.2em}
+%  \education
+%    {2013.09}
+%    [2017.06]
+%    {山西大学}
+%    {计算机科学与信息技术学院}
+%    {计算机科学与技术}%
+%    {学士（导师 曹峰 教授，研究方向为数据挖掘）}
+%\end{educations}
+
+
+%======================================================================
+% Education
+\sectionTitle{教育背景}{\faGraduationCap}
+%======================================================================
+\begin{myeducations}
+  \myeducation
+    {2017.09}
+    [2020.06]
+    {西安电子科技大学}
+    %[网络与信息安全学院]
+    {网络空间安全}%
+    %{硕士（在读，导师 陈晓峰 教授，研究方向为密码学、云计算安全）}
+    {硕士（在读，导师 陈晓峰 教授，密码学、云计算安全）}%
+
+  \separator{0.2em}
+  \myeducation
+    {2013.09}
+    [2017.06]
+    {山西大学}
+    [计算机科学与信息技术学院]
+    {计算机科学与技术}%
+    {学士（导师 曹峰 教授，研究方向为数据挖掘）}%
+\end{myeducations}
+
+%%======================================================================
+%% Research Achievements
+%\sectionTitle{科研成果}{\FAS \symbol{"F5D2}}
+%%======================================================================
+%\begin{itemize}
+%  \item 参与研究课题：
+%    \enquote{低频射电天空的高精度仿真与微弱天体辐射信号的识别}（重点项目）、
+%    \enquote{星系和星系团的 X 射线研究、宇宙低频射电辐射研究}（杰出青年基金）
+%  \item 开发低频射电天空图像模拟软件：
+%    \link{https://github.com/liweitianux/fg21sim}{\texttt{FG21sim}}
+%    （Python）
+%  \item 开发程序帮助半自动化分析 \textit{Chandra} X~射线卫星观测数据：
+%    \link{https://github.com/liweitianux/chandra-acis-analysis}{\texttt{chandra-acis-analysis}}
+%    （Python, Shell, Tcl）
+%  \item 利用卷积去噪自动编码器（CDAE）在观测频率维度有效分离微弱的
+%    宇宙再电离（EoR）信号
+%  \item 利用卷积神经网络（CNN）对 FIRST 巡天的射电星系图像
+%    根据形态特征进行分类
+%  \item 显著改进星系团射电晕的建模，并考虑低频干涉阵列的复杂仪器效应
+%  \item 分析 200 多个星系团的 \textit{Chandra} 观测数据，
+%    改进光谱拟合中各背景成分的建模，获到更准确可靠的拟合结果
+%  \item 发表第一作者 SCI 论文 2 篇，合作 SCI 论文 8 篇
+%\end{itemize}
+
+%%======================================================================
+%% Computer Skills
+%\sectionTitle{计算机技能}{\faCode}
+%%======================================================================
+%\begin{itemize}
+%  \item DragonFly BSD 操作系统开发者：
+%    关注内核网络模块及工具，修正问题并改进
+%  \item 使用 Ansible 配置和管理 VPS，部署个人域名邮箱、权威 DNS、
+%    网站、Git、IRC 等服务
+%  \item 搭建并管理课题组的工作站、计算集群（4 节点）和网络设备
+%  \item 参与配置和测试上海天文台的 SKA 高性能计算集群原型机
+%    （1 管理节点 + 1 存储节点 + 4 计算节点）
+%  \item 为\enquote{2014 第一届中国--新西兰联合 SKA 暑期学校}
+%    设计并开发网站（Django, Bootstrap, jQuery）
+%\end{itemize}
+%
+%\clearpage
+
+
+%======================================================================
+% Internships
+\sectionTitle{项目经历}{\faBriefcase}
+%======================================================================
+\begin{experiences}
+  \experience
+    {2018.12}%
+    [2017.04]%
+    %{面向隐私保护的密文搜索技术研究}%
+    {前向安全的可搜索加密技术研究}%
+    {算法设计, 实现及其工程应用}%
+    [国家自然科学基金]%
+    [\begin{itemize}
+      \item{\icon{\faFlag}} 云存储是云计算的基础和核心技术，云存储的痛点之一就是如何兼顾安全性和可搜索性
+      \item{\icon{\faFlag}} 密文搜索技术指客户在上传数据之前，首先对数据进行加密，且不影响搜索功能
+      \item{\icon{\faCheck}} 完成一篇论文（第一作者）；以第一作者申请一项专利；
+      \item{\icon{\faCheck}} 基于lucene框架，使用Java，python，整理两个基准数据集 \githublinks{zhangzhongjun}{ProcessEnwiki} \githublinks{zhangzhongjun}{ProcessEDRM1}%：ENRON和enWiki
+    \end{itemize}]%
+
+  \separator{0.2em}
+  \experience
+    {2018.05}%
+    [2017.09]%
+    {信睿保护用户隐私的云存储系统}%
+    {软件设计及实现}%
+    [西安电子科技大学校企合作项目]%
+    [\begin{itemize}
+      \item{\icon{\faFlag}} 一个B/S架构的云存储系统，使用MySql作为后台数据库，使用Redis缓存数据
+      \item{\icon{\faFlag}} 后端使用Django框架；前端使用Jquery+Bootstrap。
+      \item{\icon{\faCheck}} 获得软著《信睿保护用户隐私的云存储系统》(第一作者)
+      %\item{\icon{\faCheck}} 荣获2017年“全国密码学竞赛”三等奖
+    \end{itemize}]%
+
+  \separator{0.2em}
+  \experience
+    {}
+    [2018.09]%
+    {多关键词可搜索加密技术研究}%
+    {算法设计, 实现}%
+    [国家自然科学基金]%
+    [\begin{itemize}
+      \item{\icon{\faFlag}} 或搜索（包含关键词A或B）、与搜索（包含关键词A和B）、非搜索（包含关键词A而不包含B）
+      \item{\icon{\faCheck}} 使用JAVA实现了密码学原语——基于双线性对的聚合器 \githublinks{zhangzhongjun}{BilinearMapAccumulator}
+      \item{\icon{\faCheck}} 使用JAVA实现3个该领域研究最前沿方案   \githublinks{zhangzhongjun}{CashScheme} \githublinks{zhangzhongjun}{SunScheme} \githublinks{zhangzhongjun}{WangScheme}
+    \end{itemize}]%
+
+
+    \separator{0.2em}
+    \experience
+    {2019.03}
+    [2018.06]%
+    {以太坊底层研究与上层应用}%
+    {阅读Ethereum黄皮书，实现Dapp}%
+    [中国博士后科学基金特别资助]%
+    [\begin{itemize}
+      \item{\icon{\faFlag}} 着眼于密码学在以太坊中的使用，如账户地址涉及到的公钥计算，交易编排涉及到的Merkle树；同时把握其整体设计并追踪其最新发展动态
+      \item{\icon{\faFlag}} 底层编码技术RLP，区块设计，叔块，账户状态，共识算法Ethash，EVM和字节码；
+      \item{\icon{\faCheck}} 刨析了The DAO项目，了解了其经济学原理，对智能合约进行Code Review，分析其被攻击的原因
+      %\item{\icon{\faCheck}} 编写智能合约，结合前端知识实现一个Dapp；
+    \end{itemize}]%
+
+\end{experiences}
+
+
+
+
+
+%
+%%======================================================================
+%% Papers / Publications
+%\sectionTitle{发表论文}{\faPhone}
+%%======================================================================
+%\begin{itemize}
+%  \small
+%  \item \textbf{Li,~W.}, Xu,~H., Ma,~Z., Zhu, R., Hu,~D., Zhu,~Z.,
+%    Shan,~C., Zhu, J. \& Wu, X.-P.,
+%    \enquote{\it Separating the EoR Signal with a Convolutional Denoising
+%      Autoencoder: a Deep-learning-based Method,}
+%    2018, Monthly Notices of the Royal Astronomical Society Letters
+%    (under review; SCI; IF=4.96)
+%  \item \textbf{Li,~W.}, Xu,~H., Ma,~Z., Hu,~D., Zhu,~Z., Shan,~C.,
+%    Wang,~J., Gu,~J., Lian,~X., Zheng,~Q., Zhu, J. \& Wu, X.-P.,
+%    \enquote{\it Contribution of Radio Halos to the Foreground for
+%      SKA EoR Experiments,}
+%    2018, The Astrophysical Journal (under review; SCI; IF=5.53)
+%  \item Ma,~Z., Xu,~H., Zhu,~J., Hu,~D., \textbf{Li,~W.}, Shan,~C., Zhu,~Z.,
+%    Lian,~X., Gu,~L., Liu,~C. \& Wu,~X.-P.,
+%    \enquote{\it A Machine Learning Based Morphological Classification
+%      of 14,251 Radio AGNs Selected from the Best--Heckman Sample,}
+%    2018, The Astrophysical Journal Supplement Series
+%    (in revision; SCI; IF=8.96)
+%  \item Hu,~D., Xu,~H., Kang,~X., \textbf{Li,~W.}, Zhu,~Z., Ma,~Z.,
+%    Shan,~C., Zhang,~Z., Gu,~L., Liu,~C. \& Wu,~X.-P.,
+%    \enquote{\it A Study of the Merger History of the Galaxy Group
+%      HCG~62 Based on X-ray Observations and SPH Simulations,}
+%    2017, The Astrophysical Journal
+%    (in revision; SCI; IF=5.53)
+%  \item Zheng,~Q., Johnston-Hollitt,~M., Duchesne,~S. \& \textbf{Li,~W.},
+%    \enquote{\it Detection of a Double Relic in the Torpedo Cluster:
+%      SPT-Cl J0245-5302,}
+%    2018, Monthly Notices of the Royal Astronomical Society, 479, 730
+%    (SCI; IF=4.96)
+%  \item Ma,~Z., Zhu,~J., \textbf{Li,~W.} \& Xu,~H.,
+%    \enquote{\it An Approach to Detect Cavities in X-ray Astronomical
+%      Images Using Granular Convolutional Neural Networks,}
+%    2017, IEICE Transactions on Information and System, 100(10), 2578
+%    (SCI; IF=0.41)
+%  \item Zhang,~C., Xu,~H., Zhu,~Z., \textbf{Li,~W.}, Hu,~D., Wang,~J.,
+%    Gu,~J., Gu,~L., Zhang,~Z., Liu,~C., Zhu,~J. \& Wu,~X.-P.,
+%    \enquote{\it A Chandra Study of the Image Power Spectra of 41
+%      Cool Core and Non-cool Core Galaxy Clusters,}
+%    2016, The Astrophysical Journal, 823, 116 (SCI; IF=5.53)
+%  \item (另有 3 篇合作 SCI 论文)
+%\end{itemize}
+
+%======================================================================
+% Awards / Scholarships / Certificates
+\sectionTitle{获奖及证书}{\faTrophy}
+%======================================================================
+\begin{entries}
+  \entry{2018.10}%
+    %{第十三届全国研究生数学建模竞赛 \textbullet 成功参与奖}
+    {阿里巴巴天池polardb数据库性能大赛 | 89名/1653 | 单人参赛}%
+    [\begin{itemize}
+      \item{\icon{\faFlag}} 以 Optane SSD 为背景，实现高效的 KV 存储引擎
+      \item{\icon{\faFlag}} JVM调优，native方法调用，基于4K对齐的方案设计与架构优化，直接内存
+    \end{itemize}]%
+
+  \entry{2018.05}%
+    {华为codecraft算法比赛 | 44名 | 队长}%
+    [\begin{itemize}
+      \item{\icon{\faFlag}} 时间序列预测+背包问题\quad \githublink{zhangzhongjun}{CodeCraft}
+    \end{itemize}]%
+
+  \entry{2017.10}%
+    {全国密码学竞赛 | 国家三等奖 | 队长 \quad \githublink{zhangzhongjun}{XRCloud}}%
+  \entry{2014-2016}%
+    {“CCF第7次CSP能力认证”全国排名前3 | “软件设计师”证书 | “系统集成管理工程师”证书}
+  \entry{2013-2019}%
+    {一次西安电子科技大学一等奖学金（一万）、多次山西大学一等奖学金、一次励志奖学金（一万）}
+    \entry{2018.12}%
+    {“证券从业资格”证书}
+\end{entries}
+
+\end{document}
+
+%% EOF
