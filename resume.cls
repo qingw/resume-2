@@ -113,6 +113,7 @@
 \newcommand*{\locationSymbol}{\faPhone}
 \newcommand*{\phoneSymbol}{\faPhone}
 \newcommand*{\universitySymbol}{\faUniversity}
+\newcommand*{\weixinSymbol}{\faWeixin}
 
 % Color setup
 \ifdef{\@monochrome}%
@@ -284,6 +285,8 @@
 \newcommand*{\degree}[1]{\socialtext{\degreeSymbol}{#1}}
 % University
 \newcommand*{\university}[1]{\socialtext{\universitySymbol}{#1}}
+% weixin
+\newcommand*{\weixin}[1]{\socialtext{\weixinSymbol}{#1}}
 
 % LinkedIn: \linkedin{<username>}
 \newcommand*{\linkedin}[1]{%
