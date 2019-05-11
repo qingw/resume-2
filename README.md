@@ -12,6 +12,11 @@
 
 Font Awesome 5包含多个字体库，每个字体库包含的符号见 https://fontawesome.com/how-to-use/on-the-desktop/setup/getting-started
 
+使用TeX Live Manager将fontawesome5包升级到version 5.4.1及以上，这样就可以使用使用如下的命令
+```bash
+\usepackage[fixed]{fontawesome5}
+```
+
 * Font Awesome 5 Free
 
 * Font Awesome 5 Free Solid

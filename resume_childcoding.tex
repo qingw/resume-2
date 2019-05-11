@@ -1,3 +1,31 @@
+%%
+%% Copyright (c) 2018 Weitian LI <wt@liwt.net>
+%% CC BY 4.0 License
+%%
+%% Resume / Résumé
+%% A short document (1-2 pages) to sum up the job-related accomplishments
+%% and experience.
+%%
+%% Information Checklist:
+%% * Contact Information
+%% * Work History / Experience
+%% * Education
+%% * Skills
+%% * Summary & Objective (optional)
+%% * Hobbies & Interests (optional)
+%%
+%% References:
+%% * CV vs. Resume: What is the Difference? When to Use Which?
+%%   https://uptowork.com/blog/cv-vs-resume-difference
+%% * How to Make a Resume: A Step-by-Step Guide (+30 Examples)
+%%   https://uptowork.com/blog/how-to-make-a-resume
+%% * Entry-Level Resume: Sample and Complete Guide (+20 Examples)
+%%   https://uptowork.com/blog/entry-level-resume-example
+%%
+%% 2018-04-11
+%%
+
+% Chinese version
 \documentclass[zh]{resume}
 
 % File information shown at the footer of the last page
@@ -8,14 +36,12 @@
 }
 
 \name{中俊}{张}
-
-%设置期望岗位和期望工作城市
 %\setposition{云计算开发工程师}
 %\setlocation{深圳}
+
 %\tagline{\getposition{} @ \getlocation}
-%\taglineicon{\faBinoculars}
-
-
+\taglineicon{\faBinoculars}
+%\keywords{\getposition, \getlocation, Python, Linux, BSD}
 \photo{7em}{photo}
 
 \socialinfo{
@@ -24,7 +50,7 @@
   \github{zhangzhongjun} \\
   \university{西安电子科技大学}
   \degree{网络空间安全 \textbullet 硕士}
-  \weixin{meitong1214} \\
+  \weixin{18835109707} \\
   %\address{上海}
   %\home{湖南 \textbullet 邵阳}
   %\birthday{1991-09-26}
@@ -34,34 +60,50 @@
 \makeheader
 
 %======================================================================
+% Summary & Objectives
+%======================================================================
+%{\onehalfspacing\hspace{2em}%
+%物理学专业（射电天文方向）直博研究生，有扎实的物理、数学与统计学基础，
+%擅长数据建模与分析，热衷计算机和网络技术，
+%有 10 年的 Linux 和 BSD 使用经验，
+%熟悉常用的命令行工具，熟练掌握 Shell、Python 和 C 语言编程。
+%积极实践自由开源精神，
+%在 \link{https://github.com/liweitianux}{GitHub} 上分享多个项目，
+%是 \link{https://www.dragonflybsd.org}{DragonFly BSD} 操作系统的开发者，
+%并积极参与其他多个开源项目。
+%真诚应聘贵公司的\textbf{\getposition}职位，
+%期待加入贵公司，帮助实现公司目标，同时获得自身成长。
+%\par}  % NOTE: \par is needed
+
+%======================================================================
 % Competences / Skills & Languages
 \sectionTitle{技能和语言}{\faWrench}
 %======================================================================
 \begin{competences}
+  \comptence{\icon{\faBaby} Scratch}{%
+    精通Scratch编程;熟悉图形化编程思想
+  }
+  
+  \comptence{\icon{\faChalkboardTeacher} 授课经验}{%
+    本科做过小学生家教;硕士担任助教;备课和制作PPT的能力;良好的和学生沟通交流能力
+  }
+
   \comptence{\icon{\faCoffee} Java}{%
+    熟悉Java编程;
     了解JVM；~~
-    了解Lucene框架；~~
     熟悉使用Maven构建项目；~~
     在Maven中心仓库中贡献一个\link{https://mvnrepository.com/artifact/com.github.zhangzhongjun/BilinearMapAccumulator}{开源库}
   }
-  \comptence{\icon{\faLock}密码学}{%
-    密码学基础知识；~~云存储，可搜索加密；~~以太坊，区块链基础；~~实现相关论文方案的能力
-  }
+
   \comptence{\icon{\faCodeBranch} 版本控制}{
-    熟悉Git技术；~~在github上有多个repos；~~收获一些星星和follower
+    熟悉Git技术；在github上有多个repos；收获一些星星和follower
   }
-  %\icon{{\FA \symbol{"F717}}}
-  \comptence{ 网络爬虫}{%
-    熟悉各种反爬机制；~~
-    20余\link{https://github.com/zhangzhongjun?utf8=crawler&tab=repositories&q=crawler&type=&language=}{爬虫项目}；~~
-    经营\link{https://m.zbj.com/shop/13255669/evaluation.html}{爬虫网店}，完成50余订单，受到客户好评；~~
-    熟悉Scrapy框架
-  }
+
   \comptence{\icon{\faPython}脚本语言}{%
     Python, VBScript, Linux脚本
   }
   \comptence{\icon{\faBars}其他技能}{%
-    CET-6，无障碍阅读doc；~~证券从业资格证书持有人；~~PPT；~~PS
+    CET-6；证券从业资格证书持有人；PPT；PS
   }
 \end{competences}
 %
@@ -162,6 +204,21 @@
 \sectionTitle{项目经历}{\faBriefcase}
 %======================================================================
 \begin{experiences}
+
+  \experience
+    {2016.09}%
+    [2014.09]%
+    {小学生数学家教}%
+    {备课, 帮助小朋友温习每日所学, 答疑}%
+    [ ]%
+    [\begin{itemize}
+      \item{\icon{\faFlag}} 周内两次，周末一次
+      \item{\icon{\faFlag}} 提前准备本次上课涉及到的知识点；帮助小朋友温习老师讲过的知识；对课后作业答疑
+      \item{\icon{\faCheck}} 带这个小朋友两年，数学成绩提升显著；%
+    \end{itemize}]%  
+
+  \separator{0.2em}
+
   \experience
     {2018.12}%
     [2017.04]%
@@ -173,25 +230,11 @@
       \item{\icon{\faFlag}} 云存储是云计算的基础和核心技术，云存储的痛点之一就是如何兼顾安全性和可搜索性
       \item{\icon{\faFlag}} 密文搜索技术指客户在上传数据之前，首先对数据进行加密，且不影响搜索功能
       \item{\icon{\faCheck}} 完成一篇论文（第一作者）；申请一项专利（第一作者）；
-      \item{\icon{\faCheck}} 基于Lucene，使用Java，Python，整理两个基准数据集 \githublinks{zhangzhongjun}{ProcessEnwiki} \githublinks{zhangzhongjun}{ProcessEDRM1}%：ENRON和enWiki
+      \item{\icon{\faCheck}} 基于lucene框架，使用Java，python，整理两个基准数据集 \githublinks{zhangzhongjun}{ProcessEnwiki} \githublinks{zhangzhongjun}{ProcessEDRM1}%：ENRON和enWiki
     \end{itemize}]%
-
-
-      \separator{0.2em}
-  \experience
-    {}
-    [2018.09]%
-    {多关键词可搜索加密技术研究}%
-    {算法设计, 实现}%
-    [国家自然科学基金]%
-    [\begin{itemize}
-      \item{\icon{\faFlag}} 或搜索（包含关键词A或B）、与搜索（包含关键词A和B）、非搜索（包含关键词A而不包含B）
-      \item{\icon{\faCheck}} 使用Java实现了密码学原语——基于双线性对的聚合器 \githublinks{zhangzhongjun}{BilinearMapAccumulator}
-      \item{\icon{\faCheck}} 使用Java实现3个该领域研究最前沿方案   \githublinks{zhangzhongjun}{CashScheme} \githublinks{zhangzhongjun}{SunScheme} \githublinks{zhangzhongjun}{WangScheme}
-    \end{itemize}]%
-
 
   \separator{0.2em}
+  
   \experience
     {2018.05}%
     [2017.09]%
@@ -205,21 +248,6 @@
       %\item{\icon{\faCheck}} 荣获2017年“全国密码学竞赛”三等奖
     \end{itemize}]%
 
-
-
-    \separator{0.2em}
-    \experience
-    {2019.03}
-    [2018.06]%
-    {以太坊底层研究与上层应用}%
-    {阅读Ethereum黄皮书，实现Dapp}%
-    [中国博士后科学基金特别资助]%
-    [\begin{itemize}
-      \item{\icon{\faFlag}} 着眼于密码学在以太坊中的使用，如账户地址涉及到的公钥计算，交易编排涉及到的Merkle树；同时把握其整体设计并追踪其最新发展动态
-      \item{\icon{\faFlag}} 底层编码技术RLP，区块设计，叔块，账户状态，共识算法Ethash，EVM和字节码；
-      \item{\icon{\faCheck}} 刨析了The DAO项目，了解了其经济学原理，对智能合约进行Code Review，分析其被攻击的原因
-      %\item{\icon{\faCheck}} 编写智能合约，结合前端知识实现一个Dapp；
-    \end{itemize}]%
 
 \end{experiences}
 

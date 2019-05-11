@@ -36,6 +36,7 @@
 \RequirePackage{etoolbox}
 \RequirePackage{fontspec}
 \RequirePackage{fontawesome5}
+%\usepackage[fixed]{fontawesome5}
 \RequirePackage{parskip}  % auto adjust parskip and items skip
 \RequirePackage{titlesec}
 \RequirePackage{enumitem}
@@ -91,9 +92,9 @@
 \setmainfont{IBM Plex Serif}
 \setmonofont{IBM Plex Mono}
 \newfontfamily{\FA}{Font Awesome 5 Free}
-\newfontfamily{\FAS}{Font Awesome 5 Free Solid}
-\newfontfamily{\FAR}{Font Awesome 5 Free Regular}
-\newfontfamily{\FABR}{Font Awesome 5 Brands Regular}
+%\newfontfamily{\FAS}{Font Awesome 5 Free Solid}
+%\newfontfamily{\FAR}{Font Awesome 5 Free Regular}
+%\newfontfamily{\FABR}{Font Awesome 5 Brands Regular}
 
 % Chinese setup
 \ifdef{\@zh}{
@@ -157,7 +158,7 @@
 %\titleformat{\section}{\Large\raggedright}{}{0.2em}{}[\titlerule]
 \titleformat{\section}{\Large}{}{0.01em}{}[\titlerule]
 %\titlespacing{\section}{0em}{0.05ex}{0ex}  % <left><before><after>
-\titlespacing{\section}{0em}{-1em}{-0.3em}  % <left><before><after>
+\titlespacing{\section}{0em}{0em}{0.1em}  % <left><before><after>
 
 % Configure list via 'enumitem'
 \setlist[itemize,1]{label=, nosep, leftmargin=2em}
