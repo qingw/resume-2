@@ -1,6 +1,6 @@
 SyncTeX Version:1
-Input:1:D:/ruiyun/张中俊/2019.2.24个人简历/简历/张中俊+西安电子科技大学+网络空间安全/./resume_childcoding.tex
-Input:2:D:/ruiyun/张中俊/2019.2.24个人简历/简历/张中俊+西安电子科技大学+网络空间安全/./resume.cls
+Input:1:D:/ruiyun/张中俊/2019.2.24个人简历/简历/张中俊+西安电子科技大学+网络空间安全/childcoding/./resume_childcoding.tex
+Input:2:D:/ruiyun/张中俊/2019.2.24个人简历/简历/张中俊+西安电子科技大学+网络空间安全/childcoding/./resume.cls
 Input:3:d:/Program Files/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Input:4:d:/Program Files/texlive/2018/texmf-dist/tex/latex/base/size10.clo
 Input:5:d:/Program Files/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
@@ -141,12 +141,12 @@ Input:139:d:/Program Files/texlive/2018/texmf-dist/tex/generic/oberdiek/stringen
 Input:140:d:/Program Files/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Input:141:d:/Program Files/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
 Input:142:d:/Program Files/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
-Input:143:D:/ruiyun/张中俊/2019.2.24个人简历/简历/张中俊+西安电子科技大学+网络空间安全/./resume_childcoding.aux
+Input:143:D:/ruiyun/张中俊/2019.2.24个人简历/简历/张中俊+西安电子科技大学+网络空间安全/childcoding/./resume_childcoding.aux
 Input:144:d:/Program Files/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 Input:145:d:/Program Files/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Input:146:d:/Program Files/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Input:147:D:/ruiyun/张中俊/2019.2.24个人简历/简历/张中俊+西安电子科技大学+网络空间安全/./resume_childcoding.out
-Input:148:D:/ruiyun/张中俊/2019.2.24个人简历/简历/张中俊+西安电子科技大学+网络空间安全/./resume_childcoding.out
+Input:147:D:/ruiyun/张中俊/2019.2.24个人简历/简历/张中俊+西安电子科技大学+网络空间安全/childcoding/./resume_childcoding.out
+Input:148:D:/ruiyun/张中俊/2019.2.24个人简历/简历/张中俊+西安电子科技大学+网络空间安全/childcoding/./resume_childcoding.out
 Input:149:d:/Program Files/texlive/2018/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 Output:pdf
 Magnification:1000
@@ -154,7 +154,7 @@ Unit:1
 X Offset:0
 Y Offset:0
 Content:
-!13620
+!13680
 {1
 [1,335:4736287,53627460:32557311,48891173,0
 (1,335:4736287,4736287:0,0,0
@@ -662,12 +662,13 @@ k1,104:2298856,12900942:40960
 k1,104:2913256,12900942:40960
 )
 g1,104:3044326,12900942
-g1,104:3699686,12900942
-g1,104:4355046,12900942
-g1,104:5010406,12900942
-r1,104:5665766,12900942:0,294915,294915
-k1,104:5927911,12900942:262145
-k1,104:6190056,12900942:262145
+g1,104:3196370,12900942
+g1,104:3851730,12900942
+g1,104:4507090,12900942
+g1,104:5162450,12900942
+r1,104:5817810,12900942:0,294915,294915
+k1,104:6003933,12900942:186123
+k1,104:6190056,12900942:186123
 )
 ]
 g1,104:6190056,12900942
@@ -710,12 +711,13 @@ k1,107:2298856,13883982:40960
 k1,107:2913256,13883982:40960
 )
 g1,107:3044326,13883982
-g1,107:3699686,13883982
-g1,107:4355046,13883982
-g1,107:5010406,13883982
-r1,107:5665766,13883982:0,294915,294915
-k1,107:5927911,13883982:262145
-k1,107:6190056,13883982:262145
+g1,107:3196370,13883982
+g1,107:3851730,13883982
+g1,107:4507090,13883982
+g1,107:5162450,13883982
+r1,107:5817810,13883982:0,294915,294915
+k1,107:6003933,13883982:186123
+k1,107:6190056,13883982:186123
 )
 ]
 g1,107:6190056,13883982
@@ -2535,11 +2537,11 @@ k1,335:37293598,53516312:19621633
 ]
 ]
 ]
-!61204
+!61252
 }1
-Input:150:D:/ruiyun/张中俊/2019.2.24个人简历/简历/张中俊+西安电子科技大学+网络空间安全/./resume_childcoding.aux
-!122
+Input:150:D:/ruiyun/张中俊/2019.2.24个人简历/简历/张中俊+西安电子科技大学+网络空间安全/childcoding/./resume_childcoding.aux
+!134
 Postamble:
-Count:2384
+Count:2386
 !27
 Post scriptum:
