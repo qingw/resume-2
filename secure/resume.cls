@@ -485,7 +485,23 @@
 %   {<degree>}      % #6
 \NewDocumentCommand{\myresearch}{m m m m}{
   \ifdef{\@zh}{%
-    #1 \quad #2 \quad #3 \quad #4  \\
+    论文：\quad #1 \quad #2 \quad #3 \quad #4  \\
+  }{%
+   #1\\
+  }
+}
+
+\NewDocumentCommand{\myzhuanli}{m m}{
+  \ifdef{\@zh}{%
+    专利： \quad #1 \quad #2  \\
+  }{%
+   #1\\
+  }
+}
+
+\NewDocumentCommand{\myruanzhu}{m m}{
+  \ifdef{\@zh}{%
+    软著： \quad #1 \quad #2  \\
   }{%
    #1\\
   }
