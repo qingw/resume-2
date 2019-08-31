@@ -184,16 +184,24 @@
     {\faCreativeCommons{} \uppercase{#1} #2}%
 }
 
+% 显示github用户名
 \newcommand*{\githublink}[2]{%
   \href{http://github.com/#1/#2}%
-  {\githubSymbol{} #1/#2}%
+  {\textcolor{linkcolor}{\githubSymbol{} #1/#2}}%
 }
 
-
+%不显示github用户名
 \newcommand*{\githublinks}[2]{%
   \href{http://github.com/#1/#2}%
-  {\githubSymbol{} #2}%
+  {\textcolor{linkcolor}{\githubSymbol{} #2}}%
 }
+
+\newcommand*{\urllinks}[2]{%
+  \href{#1}%
+  {\textcolor{linkcolor}{\faAt #2}}%
+}
+
+
 
 \newcommand*{\link}[2]{\textcolor{linkcolor}{\href{#1}{#2}}}
 
