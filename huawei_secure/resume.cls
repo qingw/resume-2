@@ -29,7 +29,7 @@
 
 \RequirePackage[%
   a4paper,%
-  margin=1cm,%
+  margin=0.9cm,%
   includefoot,
 ]{geometry}
 \RequirePackage{xparse}
@@ -501,7 +501,7 @@
 
 \NewDocumentCommand{\myzhuanli}{m m}{
   \ifdef{\@zh}{%
-    专利： \quad #1 \quad #2  \\
+    专利： \quad #1 \quad #2
   }{%
    #1\\
   }
